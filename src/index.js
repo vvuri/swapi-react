@@ -1,9 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/app';
 
-
-console.log('Start WS API');
-
-const swapi = new SwapiService();
-
-swapi.getPerson(3).then( p => {
-  console.log(p.name);    
-})
+ReactDOM.render(<App />,
+  document.getElementById('root'));

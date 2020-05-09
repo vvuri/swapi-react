@@ -4,13 +4,12 @@ export default class SwapiService {
   
     async getResource (url) {
       const res = await fetch(`${this._apiBase}${url}`);
-  
+      
+      console.log(`fetch: ${this._apiBase}${url}, ${res.status}`);
       if (!res.ok) 
         throw new Error(`Incorrect request ${url}, received ${res.status}`);
     
-      const body = await res.json();
-    
-      return body;
+      return await res.json();
     }
   
     async getAllPeople () {
@@ -31,7 +30,7 @@ export default class SwapiService {
     }
   
     getPlanet (id) {
-      return this.getResource(`/planet/${id}/`);
+      return this.getResource(`/planets/${id}/`);
     }
   
     async getAllStarships () {

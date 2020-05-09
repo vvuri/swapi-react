@@ -5,4 +5,4 @@ $ npx create-react-app swapi-react
 
 2. API - wsapi.dev
 
-3.Тема Solid с сайта https://bootswatch.com/ забираем bootstrap.min.css
+3. Тема Solid с сайта https://bootswatch.com/ забираем bootstrap.min.css
