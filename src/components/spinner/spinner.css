@@ -1,0 +1,34 @@
+@keyframes ldio-31dnnqt4m68 {
+    0% { transform: rotate(0deg) }
+    50% { transform: rotate(180deg) }
+    100% { transform: rotate(360deg) }
+  }
+  .ldio-31dnnqt4m68 div {
+    position: absolute;
+    animation: ldio-31dnnqt4m68 0.9600000000000001s linear infinite;
+    width: 60.32px;
+    height: 60.32px;
+    top: 21.84px;
+    left: 21.84px;
+    border-radius: 50%;
+    box-shadow: 0 1.872px 0 0 #b58900;
+    transform-origin: 30.16px 31.096px;
+  }
+  .loadingio-spinner-eclipse-ss6zf896en {
+    width: 104px;
+    height: 104px;
+    display: inline-block;
+    overflow: hidden;
+    background: rgba(NaN, NaN, NaN, 0);
+  }
+  .ldio-31dnnqt4m68 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+  }
+  .ldio-31dnnqt4m68 div { 
+    box-sizing: content-box; 
+  }
