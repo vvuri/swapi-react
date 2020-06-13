@@ -10,10 +10,8 @@ import './app.css';
 export default class App extends Component {
   state = {
     showRandomPlanet: true,
-    selectPerson: null
+    selectPerson: 5//null
   }
-
-  // toggleRandomPlanet = () => {...}
 
   onPersonSelected = id => {
     this.setState({
@@ -22,7 +20,6 @@ export default class App extends Component {
   }
 
   render () {
-
     const planet = this.state.showRandomPlanet ? <RandomPlanet/> : null;
     
     return (
