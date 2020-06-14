@@ -9,3 +9,5 @@ $ npx create-react-app swapi-react
 
 4. Спинер взят с сайта https://loading.io/
 
+5. npm start - запуск
+   npm run build - продакт
