@@ -9,5 +9,12 @@ $ npx create-react-app swapi-react
 
 4. Спинер взят с сайта https://loading.io/
 
-5. npm start - запуск
-   npm run build - продакт
+5. запуск
+   $ npm start
+
+6. Продакт
+   $ npm run build
+   $ http-server build
+
+7.Отладка - внутри кода можно поставит:
+   debugger;   
